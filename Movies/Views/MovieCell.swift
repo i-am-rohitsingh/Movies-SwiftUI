@@ -32,7 +32,7 @@ struct MovieCell: View {
     }
     
     private var moviePoster: some View{
-        AsyncImage(url: URL(fileURLWithPath: Bundle.main.path(forResource: "placeholder", ofType: "png")!)) {
+        AsyncImage(url: URL(string: movie.posterPath) ?? URL(fileURLWithPath: Bundle.main.path(forResource: "placeholder", ofType: "png")!)) {
             Rectangle().foregroundColor(Color.gray.opacity(0.4))
         } image: { (img) -> Image in
             Image(uiImage: img).resizable()
