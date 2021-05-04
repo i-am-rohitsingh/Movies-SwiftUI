@@ -3,4 +3,54 @@
    uuid = "D72B9FCA-AB0A-4EC3-A818-B805199A79A3"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3250CA94-72E7-4299-BAFA-5EAB7C4CD70D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Movies/Network Manager/MovieDownloadManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "getSimilarMovies(movie_id:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3250CA94-72E7-4299-BAFA-5EAB7C4CD70D - 205d80e653a26d5d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Movies.MovieDownloadManager.getSimilarMovies(movie_id: Swift.Int) -&gt; ()"
+                  moduleName = "Movies"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rohit/My%20Applications/iOS%20Apps/Movies-SwiftUI/Movies/Network%20Manager/MovieDownloadManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "104"
+                  endingLineNumber = "104"
+                  offsetFromSymbolStart = "816">
+               </Location>
+               <Location
+                  uuid = "3250CA94-72E7-4299-BAFA-5EAB7C4CD70D - e95ce2589c704d15"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Movies.SimilarMovieResponse, Movies.NetworkError&gt;) -&gt; () in Movies.MovieDownloadManager.getSimilarMovies(movie_id: Swift.Int) -&gt; ()"
+                  moduleName = "Movies"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rohit/My%20Applications/iOS%20Apps/Movies-SwiftUI/Movies/Network%20Manager/MovieDownloadManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "132">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
