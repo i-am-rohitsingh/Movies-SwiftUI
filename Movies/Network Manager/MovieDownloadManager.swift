@@ -16,7 +16,7 @@ final class MovieDownloadManager: ObservableObject{
     @Published var endOfMoviesList = false
 
     private var moviesCurrentPage = 0
-    private var similarMoviesCurrentPage = 0
+    private var similarMoviesCurrentPage = 1
 
     
     func applyUserFilter(_ input: String) -> [Movie]{
